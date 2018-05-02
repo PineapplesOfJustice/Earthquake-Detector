@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo|Lato|Slabo+27px|Open+Sans|Montserrat:900');
+
+body {
+    text-align: center;
+    margin: 0px;
+    background-image: url("images/grandcanyon.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 72px;
+    color: #fff0ba;
+    text-shadow: 2px 2px #47a553;
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    margin: 0px;
+}
+
+.main {
+  background-color: rgba(34, 55, 71, 0.8);
+  border-radius: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  min-height: 250px;
+  padding: 25px;
+  color: #add4ff;
+  font-family: "Crimson Text";
+  font-size: 24px;
+}
+
+
+#todaysdate {
+  font-family: 'Macondo', cursive;
+  font-size: 30px;
+}
+
+#buttoncontainer {
+  font-family: 'Slabo 27px', serif;
+  font-size: 12px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 10px;
+  height: 70px;
+  width: 250px;
+  font-family: 'Macondo', cursive;
+  font-size: 18px;
+  background: slateblue;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-shadow: 1px 1px #666;
+}
+
+#earthquakelist {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Open Sans";
+  font-size: 18px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="earthquakes.css">
+    <title>
+        Earthquakes
+    </title>
+</head>
+
+<body>
+    
+<h1>Earthquakes</h1>
+
+<div class="main">
+  <button onclick="getAJAX()">Earthquakes</button>
+  <span id="todaysdate"></span>
+
+  <div id="earthquakelist">
+  </div>
+</div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>    
+<script src="utility.js"></script>
+<script src="earthquakes.js"></script>
+
+</body>
+</html>
