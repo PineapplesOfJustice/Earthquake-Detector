@@ -3,7 +3,7 @@
 body {
     text-align: center;
     margin: 0px;
-    background-image: url("images/grandcanyon.jpg");
+    background-image: url("Images/Background/Grand Canyon.jpg");
     background-size: cover;
 }
 
@@ -57,6 +57,7 @@ button {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   text-shadow: 1px 1px #666;
+  cursor: pointer;  
 }
 
 #earthquakelist {
